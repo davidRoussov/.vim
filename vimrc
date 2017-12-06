@@ -7,3 +7,5 @@ set background=dark
 colorscheme Base2Tone_MorningDark
 
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+
+inoremap jj <ESC>

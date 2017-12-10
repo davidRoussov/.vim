@@ -3,8 +3,11 @@ set sw=2
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set number
 
+filetype plugin on
+let g:libertine_Sunset = 1
+colorscheme libertine
 syntax on
-colorscheme distinguished
+set t_ut=
 
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
@@ -14,3 +17,5 @@ set autoindent
 set cindent
 
 set cursorline
+
+set relativenumber

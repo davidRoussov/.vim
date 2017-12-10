@@ -9,6 +9,11 @@ colorscheme libertine
 syntax on
 set t_ut=
 
+"set termguicolors
+"colorscheme blame
+"syntax on
+"set t_ut=
+
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 inoremap jj <ESC>

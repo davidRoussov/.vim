@@ -24,3 +24,7 @@ set cindent
 set cursorline
 
 set relativenumber
+
+execute pathogen#infect()
+syntax on
+filetype plugin indent on

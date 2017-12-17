@@ -3,11 +3,16 @@ set sw=2
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set number
 
-filetype plugin on
-let g:libertine_Sunset = 1
-colorscheme libertine
+"filetype plugin on
+"let g:libertine_Sunset = 1
+"colorscheme libertine
 syntax on
 set t_ut=
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+set background=dark
+colorscheme gruvbox
 
 "set termguicolors
 "colorscheme blame

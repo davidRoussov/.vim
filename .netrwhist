@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/root/tradeup/web-application-v2/client/src/app/modules/main-menu/main-menu-container'
+let g:netrw_dirhist_2='/root/tradeup/web-application/grails-app/assets/templates'
+let g:netrw_dirhist_3='/root/tradeup/web-application/grails-app/assets'

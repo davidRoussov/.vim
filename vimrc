@@ -2,34 +2,30 @@ set tabstop=2
 set sw=2
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set number
-
-"filetype plugin on
-"let g:libertine_Sunset = 1
-"colorscheme libertine
-syntax on
 set t_ut=
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
-set background=dark
-colorscheme gruvbox
-
-"set termguicolors
-"colorscheme blame
-"syntax on
-"set t_ut=
-
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
-
 inoremap jj <ESC>
-
 set autoindent
 set cindent
-
 set cursorline
-
 set relativenumber
 
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
+
+
+
+
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'leafgarland/typescript-vim'
+Plugin 'flazz/vim-colorschemes'
+
+call vundle#end()         
+filetype plugin indent on   
+
+colorscheme molokai

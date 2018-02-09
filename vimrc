@@ -9,7 +9,7 @@ set autoindent
 set cindent
 set cursorline
 set relativenumber
-
+let g:netrw_bufsettings = 'noma nomod nu nowrap ro nobl'
 
 
 

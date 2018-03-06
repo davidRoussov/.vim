@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/root/tradeup/web-application-v2/client/src/app/modules/main-menu/main-menu-container'
-let g:netrw_dirhist_2='/root/tradeup/web-application/grails-app/assets/templates'
-let g:netrw_dirhist_3='/root/tradeup/web-application/grails-app/assets'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/david/code/admin-ui/lib'
+let g:netrw_dirhist_2='/home/david/code/admin-ui/api'
+let g:netrw_dirhist_3='/home/david/code/admin-ui'
+let g:netrw_dirhist_4='/home/david/code/admin-ui/lib'
+let g:netrw_dirhist_5='/home/david/code/admin-ui/config'
+let g:netrw_dirhist_6='/home/david/code/admin-ui/lib'

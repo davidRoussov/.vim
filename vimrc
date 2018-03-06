@@ -9,6 +9,7 @@ set autoindent
 set cindent
 set cursorline
 set relativenumber
+let g:netrw_bufsettings = 'noma nomod nu nowrap ro nobl'
 
 
 
@@ -24,8 +25,14 @@ call vundle#begin()
 
 Plugin 'leafgarland/typescript-vim'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()         
 filetype plugin indent on   
 
 colorscheme molokai
+
+call plug#begin()
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+call plug#end()

@@ -13,9 +13,6 @@ let g:netrw_bufsettings = 'noma nomod nu nowrap ro nobl'
 
 
 
-
-
-
 set nocompatible              " be iMproved, required
 filetype off                  " required
 

@@ -33,3 +33,7 @@ call plug#begin()
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 call plug#end()
+
+" other stuff to install
+" searching using Ag requires:
+" apt-get install silversearcher-ag

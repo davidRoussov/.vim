@@ -1,12 +1,16 @@
+set autoindent
+set cindent
+set smartindent
+set shiftwidth=2
 set tabstop=2
-set sw=2
+set hidden
+
+
+
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-set number
 set t_ut=
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 inoremap jj <ESC>
-set autoindent
-set cindent
 set cursorline
 set relativenumber
 let g:netrw_bufsettings = 'noma nomod nu nowrap ro nobl'
@@ -27,6 +31,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'w0rp/ale'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+set rtp+=~/.fzf
+Plugin 'junegunn/fzf.vim'
 
 call vundle#end()         
 filetype plugin indent on   
@@ -34,7 +40,7 @@ filetype plugin indent on
 colorscheme molokai
 
 call plug#begin()
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 call plug#end()
 
@@ -53,3 +59,4 @@ set foldmethod=indent
 set foldnestmax=10
 set nofoldenable
 set foldlevel=2
+

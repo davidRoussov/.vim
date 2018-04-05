@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/root/tradeup/web-application-v2/client/src/app/shared/modules/file-viewer'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/david/code/admin-ui-react/src/containers/Certificates/Add'
+let g:netrw_dirhist_2='/home/david/code/admin-ui-react/src/containers/Certificates'
+let g:netrw_dirhist_3='/home/david/code/admin-ui-react/src/containers/Certificates/Add'
+let g:netrw_dirhist_4='/home/david/code/admin-ui-react/src/containers/IdentityManagement/User/UserTabs/DPS'
+let g:netrw_dirhist_5='/home/david/code/admin-ui-react/src/containers/Certificates/Add'

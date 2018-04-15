@@ -1,7 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/david/code/admin-ui-react/src/containers/Certificates/Add'
-let g:netrw_dirhist_2='/home/david/code/admin-ui-react/src/containers/Certificates'
-let g:netrw_dirhist_3='/home/david/code/admin-ui-react/src/containers/Certificates/Add'
-let g:netrw_dirhist_4='/home/david/code/admin-ui-react/src/containers/IdentityManagement/User/UserTabs/DPS'
-let g:netrw_dirhist_5='/home/david/code/admin-ui-react/src/containers/Certificates/Add'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/david/code/admin-ui-react/src/containers/IdentityManagement/User/UserTabs'
+let g:netrw_dirhist_2='/home/david/code/admin-ui-react/src/containers/IdentityManagement/User/UserTabs/Cogito'
+let g:netrw_dirhist_3='/home/david/code/admin-ui-react/src/components/IdentityManagement/User/UserTabs/DPS'
+let g:netrw_dirhist_4='/home/david/code/admin-ui-react/src/components/IdentityManagement/User/UserTabs'
+let g:netrw_dirhist_5='/home/david/code/admin-ui-react/src/components/IdentityManagement/User/UserTabs/Cogito'
+let g:netrw_dirhist_6='/home/david/code/admin-ui-react/src/containers/Smartcards'
+let g:netrw_dirhist_7='/home/david/code/admin-ui-react'
